@@ -5,7 +5,7 @@ body {
 @media (max-width: 575.98px) {
    #sectionOne {
       max-height: 770px;
-      width: 575px;
+      width: 100%;
    }
 
    #sectionOne>div {

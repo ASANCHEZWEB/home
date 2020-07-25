@@ -22,11 +22,11 @@ body {
 
    .divContainerOneSlider {
       position: absolute;
-    width: 100%;
-    margin-top: 4%;
-    font-size: 3vw;
-    color: white;
-    text-align: center;
+      width: 100%;
+      margin-top: 4%;
+      font-size: 3vw;
+      color: white;
+      text-align: center;
    }
 
    .divContainerOneSlider>h1 {
@@ -45,18 +45,18 @@ body {
 
    .divContainerOneSlider>a {
       font-family: 'Montserrat', sans-serif;
-    background-color: #86bc42;
-    border-radius: 14px;
-    padding: 1vw 2vw 1vw 2vw;
-    font-size: 3vw;
+      background-color: #86bc42;
+      border-radius: 14px;
+      padding: 1vw 2vw 1vw 2vw;
+      font-size: 3vw;
 
    }
 
    #sectionTwo>h2 {
       font-family: 'Pacifico', cursive;
-    text-align: center;
-    font-size: 6vw;
-    margin-bottom: 0px;
+      text-align: center;
+      font-size: 6vw;
+      margin-bottom: 0px;
    }
 
    .containerWelcome {
@@ -77,74 +77,100 @@ body {
       flex-direction: column;
       align-items: center;
    }
+
    #sectionTwo>div:nth-child(3)>span {
       font-family: 'Pacifico', cursive;
       font-size: 18px;
    }
+
    #sectionTwo>div:nth-child(3)>p {
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       font-size: 12px;
       margin: 0px 27px 0px 27px;
    }
+
    #sectionTwo>div:nth-child(3)>img {
       margin-top: 25px;
    }
-   .containerWelcome > div:nth-child(2) > img{
+
+   .containerWelcome>div:nth-child(2)>img {
       display: none;
    }
-   .containerWelcome > div > span{
+
+   .containerWelcome>div>span {
       font-family: 'Pacifico', cursive;
       font-size: 18px;
    }
-   .containerWelcome > div > p{
+
+   .containerWelcome>div>p {
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       font-size: 12px;
       margin: 0px 27px 0px 27px;
    }
-   .containerWelcome > div>img{
+
+   .containerWelcome>div>img {
       margin-top: 25px;
       object-fit: contain;
    }
 
-#sectionCategories>h3{
-   font-family: 'Pacifico', cursive;
-    text-align: center;
-    font-size: 6vw;
-    margin-bottom: 0px;
-}
-.containerCategories{
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.containerCategories>div{
-   width: 148px;
-  
-}
-.containerCategories>div>a{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-.containerCategories>div>a>span{
-   font-family: "Montserrat";
-   font-weight: 800;
-   font-style: normal;
-   font-size: 19px;
-   text-align: center;
-}
-#sectionPopulares{
+   #sectionCategories>h3 {
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      font-size: 6vw;
+      margin-bottom: 0px;
+   }
 
-}
-#sectionPopulares>h4{
-   font-family: 'Pacifico', cursive;
-    text-align: center;
-    font-size: 6vw;
-    margin-bottom: 0px;
-}
+   .containerCategories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+   }
+
+   .containerCategories>div {
+      width: 148px;
+
+   }
+
+   .containerCategories>div>a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .containerCategories>div>a>span {
+      font-family: "Montserrat";
+      font-weight: 800;
+      font-style: normal;
+      font-size: 19px;
+      text-align: center;
+   }
+
+   .buttonVerTodo {
+      display: flex;
+      background-color: #86bc42;
+      width: 25vw;
+      align-items: center;
+      margin: 0 auto;
+      font-family: Montserrat;
+      color: white;
+      border-radius: 18px;
+      height: 7vw;
+      margin-top: 32px;
+      font-size: 3.5vw;
+      justify-content: center;
+   }
+
+   #sectionPopulares {}
+
+   #sectionPopulares>h4 {
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      font-size: 6vw;
+      margin-bottom: 0px;
+   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {}

@@ -106,6 +106,34 @@ body {
       margin-top: 25px;
    }
 
+#sectionCategories>h3{
+   margin-top: 56px;
+   font-family: 'Pacifico', cursive;
+   text-align: center;
+   font-size: 6vw;
+}
+.containerCategories{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.containerCategories>div{
+   width: 148px;
+  
+}
+.containerCategories>div>a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.containerCategories>div>a>span{
+   font-family: "Montserrat";
+   font-weight: 800;
+   font-style: normal;
+   font-size: 19px;
+   text-align: center;
+}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {}

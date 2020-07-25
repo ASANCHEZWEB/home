@@ -22,16 +22,16 @@ body {
 
    .divContainerOneSlider {
       position: absolute;
-      width: 100%;
-      margin-top: 8%;
-      font-size: 3vw;
-      color: white;
-      text-align: center;
+    width: 100%;
+    margin-top: 4%;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
    }
 
    .divContainerOneSlider>h1 {
       font-family: 'Pacifico', cursive;
-      font-size: 6vw;
+      font-size: 7vw;
       margin: 0px;
 
 
@@ -39,23 +39,23 @@ body {
 
    .divContainerOneSlider>p {
       font-family: 'Montserrat', sans-serif;
-      font-size: 3vw;
+      font-size: 4vw;
 
    }
 
    .divContainerOneSlider>a {
       font-family: 'Montserrat', sans-serif;
-      background-color: #86bc42;
-      border-radius: 14px;
-      padding: 1vw 2vw 1vw 2vw;
-      font-size: 2vw;
+    background-color: #86bc42;
+    border-radius: 14px;
+    padding: 1vw 2vw 1vw 2vw;
+    font-size: 3vw;
 
    }
 
    #sectionTwo>h2 {
       font-family: 'Pacifico', cursive;
     text-align: center;
-    font-size: 9vw;
+    font-size: 6vw;
     margin-bottom: 0px;
    }
 
@@ -111,7 +111,7 @@ body {
 #sectionCategories>h3{
    font-family: 'Pacifico', cursive;
     text-align: center;
-    font-size: 9vw;
+    font-size: 6vw;
     margin-bottom: 0px;
 }
 .containerCategories{
@@ -142,7 +142,7 @@ body {
 #sectionPopulares>h4{
    font-family: 'Pacifico', cursive;
     text-align: center;
-    font-size: 9vw;
+    font-size: 6vw;
     margin-bottom: 0px;
 }
 }

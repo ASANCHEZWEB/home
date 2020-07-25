@@ -105,6 +105,7 @@ body {
    }
    .containerWelcome > div>img{
       margin-top: 25px;
+      object-fit: contain;
    }
 
 #sectionCategories>h3{
@@ -134,6 +135,15 @@ body {
    font-style: normal;
    font-size: 19px;
    text-align: center;
+}
+#sectionPopulares{
+
+}
+#sectionPopulares>h4{
+   font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 9vw;
+    margin-bottom: 0px;
 }
 }
 

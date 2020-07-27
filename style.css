@@ -3,17 +3,38 @@ body {
 }
 
 @media (max-width: 575.98px) {
-   #sectionOne {
-      max-height: 770px;
-      width: 100%;
+   .buttonLeft {
+      position: absolute;
+      top: 20vw;
+      z-index: 1;
+      width: 6vw;
    }
 
-   #sectionOne>div {
-      width: 100%;
-      height: auto;
+   .buttonRight {
+      position: absolute;
+      top: 20vw;
+      left: 93%;
+      width: 6vw;
+      z-index: 1;
+   }
+
+   #sectionOne {
+      width: 100vw;
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      height: 54vw;
+      overflow-x: hidden;
+   }
+
+
+   .containerCarrouselContent {
+      width: 575px;
+      position: relative;
+   }
+
+   .containerCarrouselContent>div:nth-child(2) {
+      position: relative;
+      top: -100%;
+      left: 100%;
    }
 
    .imagenOneSlider {
@@ -80,7 +101,7 @@ body {
 
    #sectionTwo>div:nth-child(3)>span {
       font-family: 'Pacifico', cursive;
-      font-size: 18px;
+      font-size: 4vw;
    }
 
    #sectionTwo>div:nth-child(3)>p {
@@ -100,7 +121,7 @@ body {
 
    .containerWelcome>div>span {
       font-family: 'Pacifico', cursive;
-      font-size: 18px;
+      font-size: 4vw;
    }
 
    .containerWelcome>div>p {
@@ -222,30 +243,30 @@ body {
       display: flex;
       flex-direction: column;
    }
-   
+
    .divNewsLetter>span {
       font-size: 5vw;
    }
-   
+
    .divNewsLetter>p {
       font-size: 3vw;
    }
-   
+
    .formNewsLetter>label:nth-child(1)>input {
       border: none;
       font-family: montserrat;
       padding: 7px;
    }
-   
+
    .formNewsLetter>label:nth-child(2)>input {
       font-size: 3vw;
       margin-bottom: 11px;
    }
-   
+
    .formNewsLetter>label:nth-child(2) {
       font-size: 11px;
    }
-   
+
    .formNewsLetter>input {
       width: 27vw;
       font-family: Montserrat;

@@ -37,6 +37,13 @@ body {
       left: 100%;
    }
 
+   .containerCarrouselContent>div:nth-child(3) {
+      position: relative;
+      top: -200%;
+      left: 200%;
+
+   }
+
    .imagenOneSlider {
       width: 100%;
    }
